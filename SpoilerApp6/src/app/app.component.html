@@ -1,6 +1,7 @@
 <div [hidden] = "false">
   <h1 [class]="nombreClase">Hola Amigos</h1>
-  <input type = "text">
+  <input type = "text" #textoInput>
+  <div>
   <p>Nombre: {{nombre}}</p>
   <p>Apellido: {{apellido}}</p>
   <p>Edad: {{edad}}</p>
@@ -8,5 +9,6 @@
   <p>Fecha de nacimiento: {{fechaNacimiento | date: 'yyyy/MM/dd'}}</p>
 
   <button (click)="cambiarClaseDeTitulo() "> {{nombreBoton}} </button>
-  <button (click)="aplicarClase() "> Aplicar clase </button>
+</div>
+  <button (click)="aplicarClase(textoInput.value)"> Aplicar clase </button>
 </div>

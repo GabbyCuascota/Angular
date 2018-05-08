@@ -22,4 +22,7 @@ export class AppComponent{
       this.nombreClase = 'sa-titulo';
     }
   }
+  aplicarClase(algo){
+    console.log('algo', algo.value);
+  }
 }
