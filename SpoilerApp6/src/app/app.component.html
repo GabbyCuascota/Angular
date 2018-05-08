@@ -1,7 +1,9 @@
 
-<h1 class="sa-titulo">Hola Amigos</h1>
+<h1 [class]="nombreClase">Hola Amigos</h1>
 <p>Nombre: {{nombre}}</p>
 <p>Apellido: {{apellido}}</p>
 <p>Edad: {{edad}}</p>
 <p>Sueldo: {{sueldo | currency}}</p>
-<p>Fecha de nacimiento: {{fechaNacimiento}}</p>
+<p>Fecha de nacimiento: {{fechaNacimiento | date: 'yyyy/MM/dd'}}</p>
+
+<button> {{nombreBoton}} </button>
