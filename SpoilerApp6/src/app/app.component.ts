@@ -17,7 +17,7 @@ export class AppComponent{
   cambiarClaseDeTitulo() {
     const nombreClaseEsTitulo = this.nombreClase === 'sa-titulo';
     if (nombreClaseEsTitulo) {
-      this.nombreClase = 'sa-titulo';
+      this.nombreClase = 'sa-subtitulo';
     } else {
       this.nombreClase = 'sa-titulo';
     }
