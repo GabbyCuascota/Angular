@@ -1255,7 +1255,7 @@
       <path value="$PROJECT_DIR$/spoiler-app/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
     <option name="width" value="814" />
     <option name="height" value="867" />
@@ -1337,16 +1337,15 @@
       <option name="presentableId" value="Default" />
       <updated>1524864098668</updated>
       <workItem from="1524864100390" duration="2585000" />
-      <workItem from="1526073043898" duration="1714000" />
+      <workItem from="1526073043898" duration="1992000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6569000" />
+    <option name="totallyTimeSpent" value="6847000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="814" height="867" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32581455" />
       <window_info anchor="bottom" id="TODO" order="6" />
