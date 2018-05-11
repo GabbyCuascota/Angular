@@ -6,7 +6,29 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']  //estilos
 })
 export class AppComponent{
-  nombre = 'Gabriela';
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+ /* nombre = 'Gabriela';
   apellido = 'Cuascota';
   edad = 26;
   sueldo = 1;
@@ -25,5 +47,5 @@ export class AppComponent{
   }
   aplicarClase(algo){
     console.log('algo', algo.value);
-  }
-}
+  }*/
+
