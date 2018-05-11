@@ -10,9 +10,9 @@ export class PeliculaBannerComponent implements OnInit {
   descripcionImagen = 'Imagen de la pelicula Tomb Raider';
   nombrePelicula = 'Tomb Raider';
   descripcionPelicula = 'Alicia vikander,Walton Googins';
-  esEstreno = false;
-  textoEstreno:string;
-  claseEstreno:string;
+  esEstreno = true;
+  textoEstreno: string;
+  claseEstreno: string;
   constructor() {}
 
   ngOnInit() {
