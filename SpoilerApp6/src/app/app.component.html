@@ -1,3 +1,22 @@
+
+
+<h2 [class]="clase"> two way data buildind </h2>
+<ul>
+  <li>clase <-> template [(ngModel)]</li>
+</ul>
+<p>Clase: {{clase}}}</p>
+
+<input type="text"
+       name="clase"
+       id="clase"
+       [(ngModel)]="clase">
+<h2>One way data building</h2>
+<ul>
+  <li>Clase al template -> [class]</li>
+  <li>Template a la clase -> [click]</li>
+</ul>
+
+
 <div [hidden] = "false">
   <h1 [class]="nombreClase">Hola Amigos</h1>
   <input type = "text" #textoInput>
@@ -7,8 +26,8 @@
   <p>Edad: {{edad}}</p>
   <p>Sueldo: {{sueldo | currency}}</p>
   <p>Fecha de nacimiento: {{fechaNacimiento | date: 'yyyy/MM/dd'}}</p>
-
-  <button (click)="cambiarClaseDeTitulo() "> {{nombreBoton}} </button>
+   <button (blur)="cambiarClaseDeTitulo() "
+           (click)="cambiarClaseDeTitulo() "> {{nombreBoton}} </button>
 </div>
   <button (click)="aplicarClase(textoInput.value)"> Aplicar clase </button>
 </div>
