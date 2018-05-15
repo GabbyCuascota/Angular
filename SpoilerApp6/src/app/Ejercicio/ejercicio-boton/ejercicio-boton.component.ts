@@ -6,7 +6,8 @@ import {Component, OnInit} from '@angular/core';
   styleUrls: ['./ejercicio-boton.component.css']
 })
 export class EjercicioBotonComponent implements OnInit {
- // colorActual: String;
+  colorActual = 'Rojo';
+  claseColor = 'alert alert-danger';
 
   constructor() {
   }
@@ -14,18 +15,25 @@ export class EjercicioBotonComponent implements OnInit {
   ngOnInit() {
   }
 
- /* cambiarColor() {
+  cambiarColor() {
     if (this.colorActual === 'Rojo') {
       this.colorActual = 'Amarillo';
-      this.colorActual = 'alerta';
+      this.claseColor = 'alert alert-warning';
     } else {
       if (this.colorActual === 'Amarillo') {
-        this.colorActual = 'Rojo';
-        this.colorActual = 'alerta';
+        this.colorActual = 'Verde';
+        this.claseColor = 'alert alert-success';
+      } else {
+        if (this.colorActual === 'Verde') {
+          this.colorActual = 'Rojo';
+          this.claseColor = 'alert alert-danger';
+        }
       }
     }
-  }*/
-}
 
+
+  }
+
+}
 
 
