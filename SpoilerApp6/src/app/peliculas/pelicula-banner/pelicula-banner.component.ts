@@ -23,6 +23,7 @@ export class PeliculaBannerComponent implements OnInit {
       this.textoEstreno = 'Proximamente';
       this.claseEstreno = 'sa-color-estado-amarillo';
     }
+
   }
 
 }
