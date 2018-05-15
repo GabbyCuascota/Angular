@@ -17,9 +17,11 @@
       <file leaf-file-name="grilla.component.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SpoilerApp6/src/app/grilla/grilla.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="87" column="12" selection-start-line="87" selection-start-column="12" selection-end-line="87" selection-end-column="12" />
+            <state relative-caret-position="413">
+              <caret line="33" column="32" lean-forward="true" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
               <folding>
+                <element signature="n#li#0;n#!!top" />
+                <element signature="n#li#1;n#!!top" />
                 <element signature="n#div#16;n#div#0;n#!!top" />
                 <element signature="n#div#17;n#div#0;n#!!top" />
                 <element signature="n#div#0;n#div#17;n#div#0;n#!!top" />
@@ -165,12 +167,12 @@
       <workItem from="1526079012336" duration="1164000" />
       <workItem from="1526245220270" duration="1819000" />
       <workItem from="1526305943959" duration="172000" />
-      <workItem from="1526411329966" duration="5563000" />
+      <workItem from="1526411329966" duration="6652000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18717000" />
+    <option name="totallyTimeSpent" value="19806000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -515,9 +517,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SpoilerApp6/src/app/grilla/grilla.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="87" column="12" selection-start-line="87" selection-start-column="12" selection-end-line="87" selection-end-column="12" />
+        <state relative-caret-position="413">
+          <caret line="33" column="32" lean-forward="true" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
           <folding>
+            <element signature="n#li#0;n#!!top" />
+            <element signature="n#li#1;n#!!top" />
             <element signature="n#div#16;n#div#0;n#!!top" />
             <element signature="n#div#17;n#div#0;n#!!top" />
             <element signature="n#div#0;n#div#17;n#div#0;n#!!top" />
