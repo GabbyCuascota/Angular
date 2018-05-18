@@ -187,14 +187,11 @@
       [esEstreno]="pelicula.esEstreno"
       [urlImagen]="pelicula.urlImagen"
     >
-
-      
     </app-pelicula-banner>
-    <img [src]="pelicula.urlImagen"
-         [alt]="pelicula.descripcion">
-    <h1>{{pelicula.nombre}} / {{pelicula.esEstreno}}</h1>
-    <p>{{pelicula.descripcion}}</p>
+    <button (click)="pelicula.esEstreno = !pelicula.esEstreno"> Cambiar es estreno </button>
 
+    <br>
+    <br>
   </div>
   <div class="col-sm-6">
     <h1 *ngIf="mostrarHola"> Hola </h1>

@@ -18,9 +18,10 @@ export class PeliculaBannerComponent implements OnInit {
   }
 
   ngOnInit() {
+    console.log("Inicio y seteo color");
     if (this.esEstreno){
       this.textoEstreno = 'Estreno';
-      this.claseEstreno = 'sa-color-estado-amarillo'
+      this.claseEstreno = 'sa-color-estado-rosado'
     }else{
       this.textoEstreno = 'Proximamente';
       this.claseEstreno = 'sa-color-estado-amarillo';
