@@ -186,6 +186,7 @@
       [nombrePelicula]="pelicula.nombre"
       [esEstreno]="pelicula.esEstreno"
       [urlImagen]="pelicula.urlImagen"
+      (dioClickEnEstado)="alertar($event)"
     >
     </app-pelicula-banner>
     <button (click)="pelicula.esEstreno = !pelicula.esEstreno"> Cambiar es estreno </button>

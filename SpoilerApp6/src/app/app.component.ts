@@ -21,27 +21,21 @@ arregloNumeros = [1, 2, 3, 4, 5, 6];
       esEstreno: false,
       urlImagen: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzFQprASMSiRnRHYgQl5sHoGr8GiMI9IB2XVIQP_tmD61KFgUY'
     },
-  ]
+  ];
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  alertar(evento){
+    console.log('Evento: ', evento);
+    alert('DIO CLICK EN ES ESTRENO');
+  }
 
 
 }
+
+
+
+
+
+
 
  /* nombre = 'Gabriela';
   apellido = 'Cuascota';

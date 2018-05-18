@@ -17,8 +17,8 @@
       <file leaf-file-name="app.component.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SpoilerApp6/src/app/app.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="141" column="6" lean-forward="true" selection-start-line="141" selection-start-column="6" selection-end-line="141" selection-end-column="6" />
+            <state relative-caret-position="418">
+              <caret line="188" column="40" selection-start-line="188" selection-start-column="40" selection-end-line="188" selection-end-column="40" />
               <folding>
                 <element signature="e#86#478#0" />
                 <element signature="e#481#1136#0" />
@@ -45,13 +45,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pelicula-banner.component.ts" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pelicula-banner.component.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SpoilerApp6/src/app/peliculas/pelicula-banner/pelicula-banner.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="43" column="37" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="37" />
+            <state relative-caret-position="273">
+              <caret line="23" column="14" lean-forward="true" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
               <folding>
-                <element signature="n#!!block;n#ngOnInit#0;n#PeliculaBannerComponent#0" />
                 <element signature="n#!!block;n#ngOnChanges#0;n#PeliculaBannerComponent#0" />
                 <element signature="n#!!block;n#setearColorYClase#0;n#PeliculaBannerComponent#0" />
                 <element signature="e#888#984#0" />
@@ -60,11 +59,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.component.ts" pinned="false" current-in-tab="false">
+      <file leaf-file-name="app.component.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SpoilerApp6/src/app/app.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+            <state relative-caret-position="219">
+              <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -89,10 +88,10 @@
         <option value="$PROJECT_DIR$/SpoilerApp6/src/app/grilla/grilla.component.html" />
         <option value="$PROJECT_DIR$/SpoilerApp6/src/app/Ejercicio/ejercicio-boton/ejercicio-boton.component.html" />
         <option value="$PROJECT_DIR$/SpoilerApp6/src/app/app.component.css" />
-        <option value="$PROJECT_DIR$/SpoilerApp6/src/app/app.component.html" />
-        <option value="$PROJECT_DIR$/SpoilerApp6/src/app/app.component.ts" />
         <option value="$PROJECT_DIR$/SpoilerApp6/src/app/peliculas/pelicula-banner/pelicula-banner.component.html" />
         <option value="$PROJECT_DIR$/SpoilerApp6/src/app/peliculas/pelicula-banner/pelicula-banner.component.ts" />
+        <option value="$PROJECT_DIR$/SpoilerApp6/src/app/app.component.html" />
+        <option value="$PROJECT_DIR$/SpoilerApp6/src/app/app.component.ts" />
       </list>
     </option>
   </component>
@@ -114,7 +113,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
-    <option name="width" value="949" />
+    <option name="width" value="1097" />
     <option name="height" value="867" />
   </component>
   <component name="ProjectView">
@@ -216,19 +215,19 @@
       <workItem from="1526488877144" duration="1139000" />
       <workItem from="1526494710267" duration="1774000" />
       <workItem from="1526559910579" duration="2998000" />
-      <workItem from="1526677581782" duration="4565000" />
+      <workItem from="1526677581782" duration="4978000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35452000" />
+    <option name="totallyTimeSpent" value="35865000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="949" height="867" extended-state="0" />
+    <frame x="-7" y="0" width="1097" height="867" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TypeScript" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29689175" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2562442" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
@@ -262,17 +261,10 @@
           <properties lambdaOrdinal="-1" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/SpoilerApp6/src/app/app.component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="7" column="40" lean-forward="true" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SpoilerApp6/src/app/grilla/grilla.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2184">
@@ -569,17 +561,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SpoilerApp6/src/app/app.component.ts">
+    <entry file="file://$PROJECT_DIR$/SpoilerApp6/node_modules/@angular/core/src/metadata/lifecycle_hooks.d.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        <state relative-caret-position="220">
+          <caret line="51" column="4" selection-start-line="51" selection-start-column="4" selection-end-line="51" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpoilerApp6/src/app/peliculas/pelicula-banner/pelicula-banner.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="23" column="14" lean-forward="true" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+          <folding>
+            <element signature="n#!!block;n#ngOnChanges#0;n#PeliculaBannerComponent#0" />
+            <element signature="n#!!block;n#setearColorYClase#0;n#PeliculaBannerComponent#0" />
+            <element signature="e#888#984#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpoilerApp6/src/app/peliculas/pelicula-banner/pelicula-banner.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SpoilerApp6/src/app/app.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="141" column="6" lean-forward="true" selection-start-line="141" selection-start-column="6" selection-end-line="141" selection-end-column="6" />
+        <state relative-caret-position="418">
+          <caret line="188" column="40" selection-start-line="188" selection-start-column="40" selection-end-line="188" selection-end-column="40" />
           <folding>
             <element signature="e#86#478#0" />
             <element signature="e#481#1136#0" />
@@ -596,23 +607,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SpoilerApp6/src/app/peliculas/pelicula-banner/pelicula-banner.component.html">
+    <entry file="file://$PROJECT_DIR$/SpoilerApp6/src/app/app.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpoilerApp6/src/app/peliculas/pelicula-banner/pelicula-banner.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="43" column="37" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="37" />
-          <folding>
-            <element signature="n#!!block;n#ngOnInit#0;n#PeliculaBannerComponent#0" />
-            <element signature="n#!!block;n#ngOnChanges#0;n#PeliculaBannerComponent#0" />
-            <element signature="n#!!block;n#setearColorYClase#0;n#PeliculaBannerComponent#0" />
-            <element signature="e#888#984#0" />
-          </folding>
+        <state relative-caret-position="219">
+          <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
         </state>
       </provider>
     </entry>
