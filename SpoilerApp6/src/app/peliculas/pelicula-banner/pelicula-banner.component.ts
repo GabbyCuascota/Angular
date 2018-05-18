@@ -13,7 +13,9 @@ export class PeliculaBannerComponent implements OnInit {
   @Input()esEstreno: boolean;
   textoEstreno: string;
   claseEstreno: string;
-  constructor() {}
+  constructor() {
+    //undefined
+  }
 
   ngOnInit() {
     if (this.esEstreno){
