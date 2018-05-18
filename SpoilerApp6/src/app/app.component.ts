@@ -12,7 +12,7 @@ arregloNumeros = [1, 2, 3, 4, 5, 6];
     {
       nombre: 'Tomb Raider',
       descripcion: 'Alicia Vikander, Walton Goggins',
-      esEstreno: true,
+      esEstreno: false,
       urlImagen: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTL_FOh_xn19xgXf_Uq5OK3WWzAmoVoZLHCO2vjFd4LKaxijU59eg'
     },
     {
