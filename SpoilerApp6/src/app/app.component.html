@@ -1,5 +1,6 @@
 <!--<app-grilla></app-grilla>
  <app-ejercicio-boton></app-ejercicio-boton>-->
+<!-- DEBER
 <br>
 <div class="row">
   <div class="col-sm-6">
@@ -28,7 +29,7 @@
           <option value="E 2018">Estrenos 2016</option>
           <option value="E 2018">Estrenos 2015</option>
         </select>
-        </div>
+      </div>
       <div class="col-sm-2">Series</div>
       <div class="col-sm-2">DMCA</div>
       <div class="col-sm-2">Descarga</div>
@@ -173,6 +174,35 @@
     </div>
   </div>
 </div>
+-->
+<br>
+<br>
+<br>
+<div class="row">
+  <div class="col-sm-6 text-center"
+       *ngFor="let pelicula of arregloPeliculas">
+
+    <img [src]="pelicula.urlImagen"
+         [alt]="pelicula.descripcion">
+    <h1>{{pelicula.nombre}} / {{pelicula.esEstreno}}</h1>
+    <p>{{pelicula.descripcion}}</p>
+  <app-pelicula-banner></app-pelicula-banner>
+</div>
+<div class="col-sm-6">
+  <h1 *ngIf="mostrarHola"> Hola </h1>
+  <button (click)="mostrarHola = !mostrarHola"> Cambiar</button>
+</div>
+<div class="col-sm-6">
+  <h1 *ngIf="!mostrarHola">
+    Mundo
+  </h1>
+</div>
+</div>
+
+<div class="col-sm-3"></div>
+<div class="col-sm-3"></div>
+<div class="col-sm-3"></div>
+<div class="col-sm-3"></div>
 
 <!--<app-pelicula-banner></app-pelicula-banner> -->
 <!--<h2 [class]="clase">Two way data binding</h2>-->
