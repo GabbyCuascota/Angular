@@ -14,56 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="app.component.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpoilerApp6/src/app/app.component.html">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ExamenJSGC/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="188" column="40" selection-start-line="188" selection-start-column="40" selection-end-line="188" selection-end-column="40" />
-              <folding>
-                <element signature="e#86#478#0" />
-                <element signature="e#481#1136#0" />
-                <element signature="e#1142#1330#0" />
-                <element signature="e#1331#1683#0" />
-                <element signature="e#1684#1816#0" />
-                <element signature="e#1817#2727#0" />
-                <element signature="e#2728#2854#0" />
-                <element signature="e#2855#3765#0" />
-                <element signature="e#3896#4806#0" />
-                <element signature="e#4842#4981#0" />
-                <element signature="e#4984#5067#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pelicula-banner.component.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpoilerApp6/src/app/peliculas/pelicula-banner/pelicula-banner.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pelicula-banner.component.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpoilerApp6/src/app/peliculas/pelicula-banner/pelicula-banner.component.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="23" column="14" lean-forward="true" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
-              <folding>
-                <element signature="n#!!block;n#ngOnChanges#0;n#PeliculaBannerComponent#0" />
-                <element signature="n#!!block;n#setearColorYClase#0;n#PeliculaBannerComponent#0" />
-                <element signature="e#888#984#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.component.ts" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SpoilerApp6/src/app/app.component.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="26" column="36" lean-forward="true" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+            <state>
+              <caret column="5" selection-start-column="5" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -92,6 +47,7 @@
         <option value="$PROJECT_DIR$/SpoilerApp6/src/app/peliculas/pelicula-banner/pelicula-banner.component.ts" />
         <option value="$PROJECT_DIR$/SpoilerApp6/src/app/app.component.html" />
         <option value="$PROJECT_DIR$/SpoilerApp6/src/app/app.component.ts" />
+        <option value="$PROJECT_DIR$/ExamenJSGC/.gitignore" />
       </list>
     </option>
   </component>
@@ -111,8 +67,9 @@
       <path value="$PROJECT_DIR$/spoiler-app/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="-7" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="96" />
+    <option name="y" value="83" />
     <option name="width" value="1097" />
     <option name="height" value="867" />
   </component>
@@ -121,6 +78,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -131,43 +89,12 @@
             <path>
               <item name="Angular" type="b2602c69:ProjectViewProjectNode" />
               <item name="Angular" type="462c0819:PsiDirectoryNode" />
-              <item name="SpoilerApp6" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Angular" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Angular" type="462c0819:PsiDirectoryNode" />
-              <item name="SpoilerApp6" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Angular" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Angular" type="462c0819:PsiDirectoryNode" />
-              <item name="SpoilerApp6" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Angular" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Angular" type="462c0819:PsiDirectoryNode" />
-              <item name="SpoilerApp6" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="peliculas" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Angular" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Angular" type="462c0819:PsiDirectoryNode" />
-              <item name="SpoilerApp6" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="peliculas" type="462c0819:PsiDirectoryNode" />
-              <item name="pelicula-banner" type="462c0819:PsiDirectoryNode" />
+              <item name="ExamenJSGC" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -215,32 +142,34 @@
       <workItem from="1526488877144" duration="1139000" />
       <workItem from="1526494710267" duration="1774000" />
       <workItem from="1526559910579" duration="2998000" />
-      <workItem from="1526677581782" duration="5616000" />
+      <workItem from="1526677581782" duration="5685000" />
+      <workItem from="1526912045941" duration="534000" />
+      <workItem from="1527908916424" duration="29000" />
+      <workItem from="1527908995805" duration="389000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36503000" />
+    <option name="totallyTimeSpent" value="37524000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1097" height="867" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <layout>
       <window_info anchor="bottom" id="TypeScript" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2562442" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.173125" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.15241636" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.2634804" />
       <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -258,20 +187,12 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/SpoilerApp6/src/app/peliculas/pelicula-banner/pelicula-banner.component.ts</url>
           <line>33</line>
-          <properties lambdaOrdinal="-1" />
         </line-breakpoint>
       </breakpoints>
       <option name="time" value="2" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/SpoilerApp6/src/app/grilla/grilla.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2184">
-          <caret line="84" column="12" selection-start-line="84" selection-start-column="12" selection-end-line="84" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SpoilerApp6/src/app/app.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2912">
@@ -568,14 +489,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/SpoilerApp6/src/app/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/SpoilerApp6/src/app/peliculas/pelicula-banner/pelicula-banner.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="23" column="14" lean-forward="true" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+        <state relative-caret-position="202">
+          <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
           <folding>
             <element signature="n#!!block;n#ngOnChanges#0;n#PeliculaBannerComponent#0" />
             <element signature="n#!!block;n#setearColorYClase#0;n#PeliculaBannerComponent#0" />
-            <element signature="e#888#984#0" />
           </folding>
         </state>
       </provider>
@@ -589,28 +516,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SpoilerApp6/src/app/app.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
+        <state relative-caret-position="26">
           <caret line="188" column="40" selection-start-line="188" selection-start-column="40" selection-end-line="188" selection-end-column="40" />
-          <folding>
-            <element signature="e#86#478#0" />
-            <element signature="e#481#1136#0" />
-            <element signature="e#1142#1330#0" />
-            <element signature="e#1331#1683#0" />
-            <element signature="e#1684#1816#0" />
-            <element signature="e#1817#2727#0" />
-            <element signature="e#2728#2854#0" />
-            <element signature="e#2855#3765#0" />
-            <element signature="e#3896#4806#0" />
-            <element signature="e#4842#4981#0" />
-            <element signature="e#4984#5067#0" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SpoilerApp6/src/app/app.component.ts">
+    <entry file="file://$PROJECT_DIR$/ExamenJSGC/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="26" column="36" lean-forward="true" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+        <state>
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
         </state>
       </provider>
     </entry>
