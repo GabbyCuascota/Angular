@@ -1,10 +1,12 @@
-import { Component } from '@angular/core';
+import { Component, OnInit  } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'app-grilla',
+  templateUrl: './grilla.component.html',
+  styleUrls: ['./grilla.component.css']
 })
-export class AppComponent {
-  title = 'app';
+export class GrillaComponent implements OnInit {
+  constructor() { }
+  ngOnInit() {
+  }
 }
