@@ -11,11 +11,15 @@
 <br>
 <!--<div class="col-sm-3 text-center">
  *ngFor="let entrenador of arregloPokemon">-->
-<div>
-  <app-estado>
-    <!-- [nombreng]="entrenador.nombreng"
-     [campeong]="entrenador.campeong"-->
-  </app-estado>
+<div class="row">
+  <div class="col-md-3" *ngFor="let entrenador of entrenador">
+    <app-estado
+    >
+      <!-- [nombreng]="entrenador.nombreng"
+       [campeong]="entrenador.campeong"-->
+    </app-estado>
+  </div>
+
 </div>
 <br>
 
@@ -34,6 +38,7 @@
 <br>
 <br>
 <div class="col-sm-12">
+  <div>
   <br>
   <h1>Tabla</h1>
   <app-tabla></app-tabla>

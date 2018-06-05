@@ -6,7 +6,7 @@ import {Component, Input, OnInit} from '@angular/core';
   styleUrls: ['./entrenador.component.css']
 })
 export class EntrenadorComponent implements OnInit {
-  @Input() arreglo: [any];
+  @Input() arregloEntrenador: [any];
   public nombreng: string;
   apellidong: string;
   fechang: string;
@@ -22,18 +22,24 @@ export class EntrenadorComponent implements OnInit {
   crear() {
     console.log(`${this.nombreng}`);
     console.log(`${this.campeong}`);
-    this.arreglo.push(new Entrenador(this.nombreng, this.campeong));
+    this.arregloEntrenador.push(new Entrenadore(this.nombreng, this.apellidong, this.fechang, this.numeroMedallasng, this.campeong));
   }
 
   limpiar() {
     this.nombreng = '';
+    this.apellidong = '';
+    this.fechang =  '';
+    this.numeroMedallasng = 0;
     this.campeong = false;
   }
 }
 
-class Entrenador {
-  constructor(public Nombres: string,
-              public CampeonActual: boolean) {
+class Entrenadore {
+  constructor(public NombresEntrenador: string,
+              public ApellidosEntrenador: string,
+              public fechaEntrenador: string,
+              public NumeroMedallasEntrenador: number,
+              public CampeonActualEntrenador: boolean) {
 
   }
 }
