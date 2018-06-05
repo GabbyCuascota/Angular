@@ -3,25 +3,30 @@
     <app-carrusel></app-carrusel>
   </div>
   <div class="col-sm-6">
+    <br>
+    <h1>Entrenador</h1>
     <app-entrenador></app-entrenador>
   </div>
   <div class="col-sm-3 text-center"
        *ngFor="let entrenador of arregloPokemon">
     <app-estado>
-     <!-- [Nombres]="entrenador.Nombres"
-      [EstadoInstalacion]="entrenador.Instalado"-->
-
+      <!-- [Nombres]="entrenador.Nombres"
+       [EstadoInstalacion]="entrenador.Instalado"-->
     </app-estado>
 
-
+  </div>
+  <div class="row">
+    <div class="col-sm-6">
+      <br>
+      <h1>Pokemon</h1>
+      <app-pokemon></app-pokemon>
+    </div>
+    <div class="col-sm-6">
+      <h1>Simple Card</h1>
+      <app-simplecard></app-simplecard>
+    </div>
   </div>
 
-  <div class="col-sm-6">
-    <app-pokemon></app-pokemon>
-  </div>
-  <div class="col-sm-6">
-    <app-simplecard></app-simplecard>
-  </div>
   <div class="col-sm-12">
     <app-tabla></app-tabla>
   </div>
