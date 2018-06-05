@@ -7,23 +7,12 @@ import {Component, Input, OnInit} from '@angular/core';
 })
 export class EstadoComponent implements OnInit {
 
-  @Input() estado: [any];
-  nombres: string;
-  apellidos: string;
-  fechaNacimiento: string;
-  numeroMedallas: number;
-  campeonActual: boolean;
 
-  tiles = [
-    {text: 'One', cols: 1, rows: 2, color: 'lightblue'},
-    {text: 'Two', cols: 1, rows: 2, color: 'lightgreen'},
-    {text: 'Three', cols: 1, rows: 2, color: 'lightpink'},
-    {text: 'Four', cols: 1, rows: 2, color: '#DDBDF1'},
-    {text: 'Five', cols: 1, rows: 2, color: 'lightblue'},
-    {text: 'Six', cols: 1, rows: 2, color: 'lightgreen'},
-    {text: 'Seven', cols: 1, rows: 2, color: 'lightpink'},
-    {text: 'Eigth', cols: 1, rows: 2, color: '#DDBDF1'},
-  ];
+  @Input() nombres: string;
+  @Input() apellidos: string;
+  @Input() fechaNacimiento: string;
+  @Input() numeroMedallas: number;
+  @Input() campeonActual: boolean;
 
   constructor() {
   }

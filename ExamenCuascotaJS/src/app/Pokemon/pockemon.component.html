@@ -1,53 +1,42 @@
-
 <form class="example-form">
-  <div class="ui-g ui-fluid">
-     <span class="ui-float-label">
-       <input id="numero-input" type="text" size="30" pInputText>
-       <label for="numero-input">Numero Pokemon</label>
-    </span>
-    </div>
-    <div class="ui-g ui-fluid">
-     <span class="ui-float-label">
-       <input id="nombrePokemon-input" type="text" size="30" pInputText>
-       <label for="nombrePokemon-input">Nombre Pokemon</label>
-     </span>
-    </div>
-    <div class="ui-g ui-fluid">
-     <span class="ui-float-label">
-       <input id="poderEspecialUno-input" type="text" size="30" pInputText>
-       <label for="poderEspecialUno-input">Poder Especial Uno</label>
-     </span>
-    </div>
-    <div class="ui-g ui-fluid">
-     <span class="ui-float-label">
-       <input id="poderEspecialDos-input" type="text" size="30" pInputText>
-       <label for="poderEspecialDos-input">Poder Especial Dos</label>
-     </span>
-    </div>
-    <div class="ui-g ui-fluid">
-     <span class="ui-float-label">
-       <input id="fechaCaptura-input" type="text" size="30" pInputText>
-       <label for="fechaCaptura-input">Fecha de Captura</label>
-     </span>
-    </div>
-    <div class="ui-g ui-fluid">
-     <span class="ui-float-label">
-       <input id="nivel-input" type="text" size="30" pInputText>
-       <label for="nivel-input">Nivel</label>
-     </span>
-    </div>
+  <div>
+    <span class="ui-inputgroup-addon"><i class="fa fa-user"></i></span>
+    <input type="text" pInputText placeholder="Numero Pokemon">
+  </div>
+  <br>
+  <div>
+    <input type="text" pInputText placeholder="Nombre Pokemon"/>
+  </div>
+  <br>
+  <div>
+    <input type="text" pInputText placeholder="Poder Especial Uno"/>
+  </div>
+  <br>
+  <div>
+    <input type="text" pInputText placeholder="Poder Especial Uno"/>
+  </div>
+  <br>
+  <div>
+    <p-calendar [(ngModel)]="valueDate" name="Fecha Captura"></p-calendar>
+  </div>
+  <br>
+  <div>
+    <input type="text" pInputText placeholder="Nivel"/>
+  </div>
+  <br>
+  <div>
+    <input type="text" pInputText placeholder="ID Entrenador"/>
+  </div>
+  <hr/>
 </form>
 <br>
-<div class="ui-g ui-fluid">
-  <button pButton type="button" label="Limpiar" class="ui-button-warning"></button>
-</div>
-<div class="ui-g ui-fluid">
-  <button pButton type="button" label="Crear" class="ui-button-success"></button>
-</div>
+<p-button label="Crear" (onClick)="clickCrear($event)"></p-button>
+<p-button label="Limpiar" styleClass="ui-button-danger" (onClick)="clickLimpiar($event)"></p-button>
+
 <div class="col-sm-6">
-  <h1>CARD</h1>
-  <p-card title="CARD">
-    {{pokemones}}
+  <h1>SimpleCard</h1>
+  <p-card title="SimpleCard">
+    <!--{{pokemones}}-->
   </p-card>
 </div>
 

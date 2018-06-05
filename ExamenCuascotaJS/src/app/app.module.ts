@@ -18,6 +18,8 @@ import {AccordionModule} from 'primeng/accordion';
 import {FormsModule} from '@angular/forms';
 import {TableModule} from 'primeng/table';
 import {MatGridListModule} from '@angular/material';
+import {MatDatepickerModule} from '@angular/material/datepicker';
+import {CalendarModule} from 'primeng/calendar';
 
 @NgModule({
   declarations: [
@@ -44,6 +46,8 @@ import {MatGridListModule} from '@angular/material';
     FormsModule,
     TableModule,
     MatGridListModule,
+    MatDatepickerModule,
+    CalendarModule
 
     // MenuItem
   ],

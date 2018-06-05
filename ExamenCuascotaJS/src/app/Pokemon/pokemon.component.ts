@@ -1,4 +1,4 @@
-import {Component, Input, OnInit} from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 
 
 @Component({
@@ -7,17 +7,21 @@ import {Component, Input, OnInit} from '@angular/core';
   styleUrls: ['./pokemon.component.css']
 })
 export class PokemonComponent implements OnInit {
-
-  @Input() numeroPokemon: number;
-  @Input() nombrePokemon: string;
-  @Input() poderEspecialUno: string;
-  @Input() poderEspecialDos: string;
-  @Input() fechaCaptura: string;
-  @Input() nivel: number;
-  @Input() entrenadorId: number;
+  valueDate;
 
   constructor() {
   }
+
+  clickCrear() {
+    alert('crear');
+    // execute action
+  }
+
+  clickLimpiar() {
+    alert('lmpiar');
+    // execute action
+  }
+
   ngOnInit() {
   }
 

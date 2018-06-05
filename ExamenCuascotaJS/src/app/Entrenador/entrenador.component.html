@@ -1,39 +1,32 @@
 <form class="example-form">
   <div>
     <mat-form-field class="example-full-width">
-      <!--<input matInput placeholder="Nombres">-->
-      <input matInput [(ngModel)]="nombreng" name="nombre" placeholder="Nombres">
+      <input matInput [(ngModel)]="nombreng" name="nombreng" placeholder="Nombres">
     </mat-form-field>
   </div>
 
   <div>
     <mat-form-field class="example-full-width">
-      <!--<input matInput placeholder="Apellidos">-->
-      <input matInput [(ngModel)]="apellidong" name="apellido" placeholder="Apellidos">
+      <input matInput [(ngModel)]="apellidong" name="apellidong" placeholder="Apellidos">
     </mat-form-field>
   </div>
 
   <div>
     <mat-form-field class="example-full-width">
-      <!--<input matInput placeholder="Fecha de Nacimiento"> -->
-      <input matInput [(ngModel)]="fechang" name="fecha" placeholder="Fecha de Nacimiento">
+      <input matInput [matDatepicker]="picker" [(ngModel)]="fechanng" name="fecha" placeholder="dd/mm/aa">
+      <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+      <mat-datepicker #picker></mat-datepicker>
    </mat-form-field>
  </div>
 
  <div>
    <mat-form-field class="example-full-width">
-     <!--<input matInput placeholder="Numero de Medallas"> -->
-     <input matInput [(ngModel)]="numeroMedallasng" name="numeroMedalla" placeholder="Numero de Medallas">
+     <input matInput [(ngModel)]="numeroMedallasng" name="numeroMedallasng" placeholder="Numero de Medallas">
    </mat-form-field>
  </div>
  <div>
-   <!--<mat-checkbox>Campeon Actual</mat-checkbox> -->
-   <mat-checkbox [(ngModel)]="campeong" name="campeon">Campeon Actual</mat-checkbox>
+   <mat-checkbox [(ngModel)]="campeong" name="campeong">Campeon Actual</mat-checkbox>
  </div>
 </form>
-<div class="so-boton-limpiar">
- <button mat-raised-button color="primary" (click)="limpiar()">Limpiar</button>
-</div>
-<div class="">
- <button mat-raised-button color="warn" (click)="crear()">Crear</button>
-</div>
+<button mat-raised-button	class="espacio_boton" (click)="crear()">Crear</button>
+<button mat-stroked-button	(click)="limpiar()">Limpiar</button>
