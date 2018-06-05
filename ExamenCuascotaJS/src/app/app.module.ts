@@ -1,7 +1,5 @@
 import {BrowserModule} from '@angular/platform-browser';
 import {NgModule} from '@angular/core';
-
-
 import {AppComponent} from './app.component';
 import {CarruselComponent} from './Carrusel/carrusel.component';
 import {EntrenadorComponent} from './Entrenador/entrenador.component';
@@ -19,6 +17,7 @@ import {CardModule} from 'primeng/card';
 import {AccordionModule} from 'primeng/accordion';
 import {FormsModule} from '@angular/forms';
 import {TableModule} from 'primeng/table';
+import {MatGridListModule} from '@angular/material';
 
 @NgModule({
   declarations: [
@@ -43,7 +42,9 @@ import {TableModule} from 'primeng/table';
     CardModule,
     AccordionModule,
     FormsModule,
-    TableModule
+    TableModule,
+    MatGridListModule,
+
     // MenuItem
   ],
   providers: [],
