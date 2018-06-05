@@ -7,10 +7,10 @@
   </div>
   <div class="col-sm-3 text-center"
        *ngFor="let entrenador of arregloPokemon">
-    <app-estado
-      [Nombres]="entrenador.Nombres"
-      [EstadoInstalacion]="entrenador.Instalado"
-    >
+    <app-estado>
+     <!-- [Nombres]="entrenador.Nombres"
+      [EstadoInstalacion]="entrenador.Instalado"-->
+
     </app-estado>
 
 
@@ -20,7 +20,7 @@
     <app-pokemon></app-pokemon>
   </div>
   <div class="col-sm-6">
-    <app-simpleCard></app-simpleCard>
+    <app-simplecard></app-simplecard>
   </div>
   <div class="col-sm-12">
     <app-tabla></app-tabla>

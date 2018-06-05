@@ -16,6 +16,7 @@ import {InputTextModule} from 'primeng/primeng';
 import {MatButtonModule, MatCheckboxModule, MatInputModule} from '@angular/material';
 import {ButtonModule} from 'primeng/button';
 import {CardModule} from 'primeng/card';
+import {AccordionModule} from 'primeng/accordion';
 
 
 @NgModule({
@@ -38,7 +39,9 @@ import {CardModule} from 'primeng/card';
     MatInputModule,
     InputTextModule,
     ButtonModule,
-    CardModule
+    CardModule,
+    AccordionModule,
+    // MenuItem
   ],
   providers: [],
   bootstrap: [AppComponent]
