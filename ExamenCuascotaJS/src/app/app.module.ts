@@ -17,7 +17,7 @@ import {MatButtonModule, MatCheckboxModule, MatInputModule} from '@angular/mater
 import {ButtonModule} from 'primeng/button';
 import {CardModule} from 'primeng/card';
 import {AccordionModule} from 'primeng/accordion';
-
+import {FormsModule} from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -41,6 +41,7 @@ import {AccordionModule} from 'primeng/accordion';
     ButtonModule,
     CardModule,
     AccordionModule,
+    FormsModule
     // MenuItem
   ],
   providers: [],

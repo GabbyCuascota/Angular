@@ -5,29 +5,37 @@
   <div class="col-sm-6">
     <br>
     <h1>Entrenador</h1>
-    <app-entrenador></app-entrenador>
+    <app-entrenador [arreglo]="arregloPokemon"></app-entrenador>
   </div>
-  <div class="col-sm-3 text-center"
-       *ngFor="let entrenador of arregloPokemon">
-    <app-estado>
-      <!-- [Nombres]="entrenador.Nombres"
-       [EstadoInstalacion]="entrenador.Instalado"-->
-    </app-estado>
+</div>
+<br>
+<!--<div class="col-sm-3 text-center">
+ *ngFor="let entrenador of arregloPokemon">-->
+<div>
+  <app-estado>
+    <!-- [nombreng]="entrenador.nombreng"
+     [campeong]="entrenador.campeong"-->
+  </app-estado>
+</div>
+<br>
 
+<div class="row">
+  <div class="col-sm-6">
+    <br>
+    <h1>Pokemon</h1>
+    <app-pokemon></app-pokemon>
   </div>
-  <div class="row">
-    <div class="col-sm-6">
-      <br>
-      <h1>Pokemon</h1>
-      <app-pokemon></app-pokemon>
-    </div>
-    <div class="col-sm-6">
-      <h1>Simple Card</h1>
-      <app-simplecard></app-simplecard>
-    </div>
+  <div class="col-sm-6">
+    <br>
+    <h1>Simple Card</h1>
+    <app-simplecard></app-simplecard>
   </div>
-
-  <div class="col-sm-12">
-    <app-tabla></app-tabla>
-  </div>
+</div>
+<br>
+<br>
+<div class="col-sm-12">
+  <br>
+  <h1>Tabla</h1>
+  <app-tabla></app-tabla>
+</div>
 </div>

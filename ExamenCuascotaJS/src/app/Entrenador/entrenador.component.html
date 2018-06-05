@@ -1,41 +1,39 @@
-<br>
-<br>
-<br>
 <form class="example-form">
-  <div class="">
-    <h3>Entrenador</h3>
-  </div>
-
   <div>
     <mat-form-field class="example-full-width">
-      <input matInput placeholder="Nombres">
+      <!--<input matInput placeholder="Nombres">-->
+      <input matInput [(ngModel)]="nombreng" name="nombre" placeholder="Nombres">
     </mat-form-field>
   </div>
 
   <div>
     <mat-form-field class="example-full-width">
-      <input matInput placeholder="Apellidos">
+      <!--<input matInput placeholder="Apellidos">-->
+      <input matInput [(ngModel)]="apellidong" name="apellido" placeholder="Apellidos">
     </mat-form-field>
   </div>
 
   <div>
     <mat-form-field class="example-full-width">
-      <input matInput placeholder="Fecha de Nacimiento">
-    </mat-form-field>
-  </div>
+      <!--<input matInput placeholder="Fecha de Nacimiento"> -->
+      <input matInput [(ngModel)]="fechang" name="fecha" placeholder="Fecha de Nacimiento">
+   </mat-form-field>
+ </div>
 
-  <div>
-    <mat-form-field class="example-full-width">
-      <input matInput placeholder="Numero de Medallas">
-    </mat-form-field>
-  </div>
-  <div>
-    <mat-checkbox>Campeon Actual</mat-checkbox>
-  </div>
+ <div>
+   <mat-form-field class="example-full-width">
+     <!--<input matInput placeholder="Numero de Medallas"> -->
+     <input matInput [(ngModel)]="numeroMedallasng" name="numeroMedalla" placeholder="Numero de Medallas">
+   </mat-form-field>
+ </div>
+ <div>
+   <!--<mat-checkbox>Campeon Actual</mat-checkbox> -->
+   <mat-checkbox [(ngModel)]="campeong" name="campeon">Campeon Actual</mat-checkbox>
+ </div>
 </form>
 <div class="so-boton-limpiar">
-  <button mat-raised-button color="primary">Limpiar</button>
+ <button mat-raised-button color="primary" (click)="limpiar()">Limpiar</button>
 </div>
 <div class="">
-  <button mat-raised-button color="accent">Crear</button>
+ <button mat-raised-button color="warn" (click)="crear()">Crear</button>
 </div>

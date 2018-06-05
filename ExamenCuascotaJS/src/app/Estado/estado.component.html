@@ -1,7 +1,16 @@
+<!--<div class="ea-color-letras">
 
-<div class="ea-color-letras">
-
-  <!--<h1>{{Nombres}}</h1>
-  <h1>{{EstadoInstalacion}}</h1>
--->
+  <!--<h1>{{nombreng}}</h1>
+  <h1>{{campeong}}</h1>
+</div>-->
+<div>
+  <mat-grid-list cols="4" rowHeight="100px">
+    <mat-grid-tile
+      *ngFor="let tile of tiles"
+      [colspan]="tile.cols"
+      [rowspan]="tile.rows"
+      [style.background]="tile.color">
+      {{tile.text}}
+    </mat-grid-tile>
+  </mat-grid-list>
 </div>
