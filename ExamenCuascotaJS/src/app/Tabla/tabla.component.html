@@ -1,4 +1,46 @@
+<h3 class="first">Basic</h3>
+<p-table [value]="tablas">
+  <ng-template pTemplate="header">
+    <tr>
+      <th>Numero Pokemon</th>
+      <th>Nombre Pokemon</th>
+      <th>Poder Especial Uno</th>
+      <th>Poder Especial Dos</th>
+      <th>Fecha de Captura</th>
+      <th>Nivel</th>
+      <th>Entrenador ID</th>
+    </tr>
+  </ng-template>
+  <ng-template pTemplate="body" let-tabla>
+    <tr>
+      <td>{{tabla.numeroPokemon}}</td>
+      <td>{{tabla.nombrePokemon}}</td>
+      <td>{{tabla.poderEspecialUno}}</td>
+      <td>{{tabla.poderEspecialDos}}</td>
+      <td>{{tabla.fechaCaptura}}</td>
+      <td>{{tabla.nivel}}</td>
+      <td>{{tabla.entrenadorId}}</td>
+    </tr>
+  </ng-template>
+</p-table>
 
-<p>
-  tabla !
-</p>
+<h3>Dynamic Columns</h3>
+<p-table [columns]="tablas" [value]="tablas">
+  <ng-template pTemplate="header" let-columns>
+    <tr>
+      <th *ngFor="let col of columns">
+        {{col.header}}
+      </th>
+    </tr>
+  </ng-template>
+  <ng-template pTemplate="body" let-rowData let-columns="columns">
+    <tr>
+      <td *ngFor="let col of columns">
+        {{rowData[col.field]}}
+      </td>
+    </tr>
+  </ng-template>
+  <ng-template pTemplate="summary">
+    Existen {{tablas?.length}} tablas
+  </ng-template>
+</p-table>

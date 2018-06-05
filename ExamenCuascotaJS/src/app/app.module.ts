@@ -18,6 +18,7 @@ import {ButtonModule} from 'primeng/button';
 import {CardModule} from 'primeng/card';
 import {AccordionModule} from 'primeng/accordion';
 import {FormsModule} from '@angular/forms';
+import {TableModule} from 'primeng/table';
 
 @NgModule({
   declarations: [
@@ -41,7 +42,8 @@ import {FormsModule} from '@angular/forms';
     ButtonModule,
     CardModule,
     AccordionModule,
-    FormsModule
+    FormsModule,
+    TableModule
     // MenuItem
   ],
   providers: [],
