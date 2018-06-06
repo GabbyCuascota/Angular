@@ -1,35 +1,41 @@
 import {BrowserModule} from '@angular/platform-browser';
 import {NgModule} from '@angular/core';
 import {AppComponent} from './app.component';
-import {CarruselComponent} from './Carrusel/carrusel.component';
-import {EntrenadorComponent} from './Entrenador/entrenador.component';
-import {PokemonComponent} from './Pokemon/pokemon.component';
-import {SimpleCardComponent} from './SimpleCard/simpleCard.component';
+import {CarruselComponent} from './carrusel/carrusel.component';
+
+
 import {TablaComponent} from './Tabla/tabla.component';
-import {EstadoComponent} from './Estado/estado.component';
+
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import {HttpClientModule} from '@angular/common/http';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {InputTextModule} from 'primeng/primeng';
-import {MatButtonModule, MatCheckboxModule, MatInputModule} from '@angular/material';
+import {MatButtonModule, MatCheckboxModule, MatGridListModule, MatInputModule, MatNativeDateModule} from '@angular/material';
 import {ButtonModule} from 'primeng/button';
 import {CardModule} from 'primeng/card';
 import {AccordionModule} from 'primeng/accordion';
 import {FormsModule} from '@angular/forms';
 import {TableModule} from 'primeng/table';
-import {MatGridListModule} from '@angular/material';
 import {MatDatepickerModule} from '@angular/material/datepicker';
 import {CalendarModule} from 'primeng/calendar';
+import {FormularioComponent} from './formulario/formulario.component';
+import {VistaDetalladaComponent} from './vista-detallada.component/vista-detallada.component';
+import {VistaPreviaComponent} from './vista-previa/vista-previa.component';
+import {FormularioEntrenadorComponent} from './formulario-entrenador/formulario-entrenador.component';
+import {FormularioPokemonComponent} from './formulario-pokemon/formulario-pokemon.component';
+import {MatCardModule} from '@angular/material/card';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     CarruselComponent,
-    EntrenadorComponent,
-    PokemonComponent,
-    SimpleCardComponent,
     TablaComponent,
-    EstadoComponent
+    FormularioComponent,
+    VistaDetalladaComponent,
+    VistaPreviaComponent,
+    FormularioEntrenadorComponent,
+    FormularioPokemonComponent
   ],
   imports: [
     BrowserModule,
@@ -47,7 +53,10 @@ import {CalendarModule} from 'primeng/calendar';
     TableModule,
     MatGridListModule,
     MatDatepickerModule,
-    CalendarModule
+    CalendarModule,
+    MatNativeDateModule,
+    MatCardModule,
+
 
     // MenuItem
   ],

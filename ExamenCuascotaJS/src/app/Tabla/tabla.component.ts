@@ -1,5 +1,30 @@
-import {Component, OnInit} from '@angular/core';
+import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
+import {Pokemon} from '../app.component';
 
+@Component({
+  selector: 'app-tabla',
+  templateUrl: './tabla.component.html',
+  styleUrls: ['./tabla.component.css']
+})
+
+export class TablaComponent implements OnInit {
+
+  @Input() pokemons: Pokemon[];
+
+  @Output() dioClickEnFila: EventEmitter<number> = new EventEmitter();
+
+  constructor() {
+  }
+
+  ngOnInit() {
+  }
+
+  hizoClickEnFila(numeroPokemon) {
+    this.dioClickEnFila.emit(numeroPokemon);
+  }
+}
+
+/*
 @Component({
   selector: 'app-tabla',
   templateUrl: './tabla.component.html',
@@ -35,5 +60,6 @@ export class TablaComponent implements OnInit {
       {field: 'nivel', header: 'nivel'},
       {field: 'entrenadorId', header: 'entrenadorId'}
     ];
-  }*/
+  }
 }
+*/

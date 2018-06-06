@@ -3,20 +3,92 @@
     <app-carrusel></app-carrusel>
   </div>
   <div class="col-sm-6">
+    <app-formulario-entrenador
+      [entrenadorId]="entrenador.entrenadorId"
+      [nombres]="entrenador.nombres"
+      [apellidos]="entrenador.apellidos"
+      [fechaNacimiento]="entrenador.fechaNacimiento"
+      [numeroMedallas]="entrenador.numeroMedallas"
+      [campeonActual]="entrenador.campeonActual"
+
+      (dioClickEnBotonCrear)="alertarDioClickEnBotonCrear($event)"
+    >
+    </app-formulario-entrenador>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-sm-3" *ngFor="let entrenador of entrenadores; let indice = index">
+    <app-vista-previa
+      [indice]="indice"
+      [nombre]="entrenador.nombres + ' ' + entrenador.apellidos"
+      [descripcion]="entrenador.fechaNacimiento + '(' + entrenador.numeroMedallas + ')'"
+      (dioClickEnEstado)="alertar($event)"
+    >
+    </app-vista-previa>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-sm-6">
+    <app-formulario-pokemon
+      [numeroPokemon]="pokemon.numeroPokemon"
+      [nombrePokemon]="pokemon.nombrePokemon"
+      [poderEspecialUno]="pokemon.poderEspecialUno"
+      [poderEspecialDos]="pokemon.poderEspecialDos"
+      [fechaCaptura]="pokemon.fechaCaptura"
+      [nivel]="pokemon.nivel"
+      [entrenadorId]="pokemon.entrenadorId"
+      (dioClickEnBotonCrear)="alertarPokemonDioClickEnBotonCrear($event)"
+    >
+    </app-formulario-pokemon>
+  </div>
+  <div class="col-sm-6">
+    <app-vista-detallada
+      [entrenadorId]="entrenador.entrenadorId"
+      [nombres]="entrenador.nombres"
+      [apellidos]="entrenador.apellidos"
+      [fechaNacimiento]="entrenador.fechaNacimiento"
+      [numeroMedallas]="entrenador.numeroMedallas"
+      [campeonActual]="entrenador.campeonActual"
+    >
+    </app-vista-detallada>
+
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-sm-12">
+    <app-tabla
+      [pokemons]="entrenador.pokemons"
+      (dioClickEnFila)="alertarPokemonDioClickEnFila($event)"
+    ></app-tabla>
+  </div>
+</div>
+
+
+<!--
+<div class="row">
+  <div class="col-sm-6">
+    <app-carrusel></app-carrusel>
+  </div>
+  <div class="col-sm-6">
     <br>
     <h1>Entrenador</h1>
-    <app-entrenador [arreglo]="arregloPokemon"></app-entrenador>
+    <app-entrenador [arregloEntrenador]="arregloEntrenador2"></app-entrenador>
   </div>
 </div>
 <br>
-<!--<div class="col-sm-3 text-center">
- *ngFor="let entrenador of arregloPokemon">-->
+
 <div class="row">
-  <div class="col-md-3" *ngFor="let entrenador of entrenador">
+  <div *ngFor="let entrenador of arregloEntrenador2" class="col-md-3">
     <app-estado
+      [nombres]="entrenador.NombresEntrenador"
+      [apellidos]="entrenador.ApellidosEntrenador"
+      [fechaNacimiento]="entrenador.fechaEntrenador"
+      [numeroMedallas]="entrenador.NumeroMedallasEntrenador"
+      [campeonActual]= " entrenador.campeonActual"
     >
-      <!-- [nombreng]="entrenador.nombreng"
-       [campeong]="entrenador.campeong"-->
     </app-estado>
   </div>
 
@@ -39,8 +111,9 @@
 <br>
 <div class="col-sm-12">
   <div>
-  <br>
-  <h1>Tabla</h1>
-  <app-tabla></app-tabla>
+    <br>
+    <h1>Tabla</h1>
+    <app-tabla></app-tabla>
+  </div>
 </div>
-</div>
+-->

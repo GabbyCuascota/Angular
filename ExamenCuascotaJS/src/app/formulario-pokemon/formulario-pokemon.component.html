@@ -1,0 +1,33 @@
+<div class="formulario-pokemon">
+
+    <span class="ui-float-label">
+      <!--<label for="nombrePokemon">Nombre Pokemon</label>-->
+      <input  type="text" pInputText id="nombrePokemon" size="30"  [(ngModel)]="nombrePokemon" placeholder="Nombre Pokemon">
+
+
+    </span>
+  <br>
+  <span class="ui-float-label">
+      <input id="poderEspecialUno" type="text" size="30" pInputText [(ngModel)]="poderEspecialUno" placeholder="Poder Especial Uno">
+
+    </span>
+  <br>
+  <span class="ui-float-label">
+      <input id="poderEspecialDos" type="text" size="30" pInputText [(ngModel)]="poderEspecialDos" placeholder="Poder Especial Dos">
+
+  </span>
+  <br>
+  <span class="ui-float-label">
+      <input id="fechaCaptura" type="text" size="30" pInputText [(ngModel)]="fechaCaptura" placeholder="Fecha de Captura">
+
+  </span>
+  <br>
+  <span class="ui-float-label">
+      <input id="nivel" type="text" size="30" pInputText [(ngModel)]="nivel" placeholder="Nivel">
+
+  </span>
+
+  <p-button (click)="hizoClickEnBotonLimpiar()" label="Limpiar"></p-button>
+  <p-button (click)="hizoClickEnBotonCrear()" label="Crear"></p-button>
+
+</div>
